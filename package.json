@@ -1,0 +1,38 @@
+{
+  "name": "react-native-fetch-cache",
+  "version": "0.1.0",
+  "description": "A package that will cache react native fetch requests on the client side. Has a global dependency upon fetch itself, so you can only really use it within react native, within a newer browser, or if you require a fetch polyfill",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swolebrain/react-native-fetch-cache.git"
+  },
+  "keywords": [
+    "fetch",
+    "async cache",
+    "react native caching",
+    "fetch with cache",
+    "cache",
+    "caching",
+    "ajax cache"
+  ],
+  "author": {
+    "name": "Victor Moreno",
+    "email": "thecodingteacher@gmail.com",
+    "url": "titanhack.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swolebrain/react-native-fetch-cache/issues"
+  },
+  "homepage": "https://github.com/Swolebrain/react-native-fetch-cache#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "node-fetch": "^1.7.3",
+    "query-string": "^5.0.0"
+  }
+}
